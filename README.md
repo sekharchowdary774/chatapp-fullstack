@@ -4,13 +4,13 @@ Modern React frontend for a WhatsApp-style real-time chat app with WebSockets, m
 
 ✅ Tech Stack
 Category	Technologies
-Frontend Framework	React.js (Vite or CRA)
-State Management	useState, useEffect, useRef
-WebSocket Client	SockJS + STOMP.js
-HTTP Client	Axios
-Routing	React Router
-UI Features	Message bubbles, typing indicators, sidebar chats
-Deployment	Vercel
+* Frontend Framework	React.js (Vite or CRA)
+* State Management	useState, useEffect, useRef
+* WebSocket Client	SockJS + STOMP.js
+* HTTP Client	Axios
+* Routing	React Router
+* UI Features	Message bubbles, typing indicators, sidebar chats
+* Deployment	Vercel
 ⚡️ Features
 🔐 Authentication UI
 
@@ -33,33 +33,12 @@ Deployment	Vercel
 🔍 User Search
 
 1.Search users by username or email
+
 2.Debounced API calls
+
 3.Opens new chat instantly
 
-📁 Folder Structure
 
-      src/
- ├── components/
- │     ├── UserSearchSidebar.jsx
- │     ├── ChatListItem.jsx
- │     ├── MessageBubble.jsx
- │
- ├── pages/
- │     ├── Login.jsx
- │     ├── Signup.jsx
- │     ├── Chat.jsx
- │     ├── ForgotPassword.jsx
- │
- ├── services/
- │     ├── api.js
- │     ├── chatApi.js
- │
- ├── styles/
- │     ├── Auth.css
- │     ├── UserSearchSidebar.css
- │
- ├── App.js
- └── main.jsx
 
 🔌 Run Locally
 1️⃣ Install Packages :  npm install
@@ -78,19 +57,19 @@ Automatic builds on push to main.
 🔗 WebSocket Endpoint
     wss://chat-backened-2.onrender.com/chat
 
-🚀 Real-Time Chat App – Backend
+## 🚀 Real-Time Chat App – Backend
 
 Spring Boot backend powering a full real-time private messaging system using WebSockets (STOMP), JWT authentication, PostgreSQL, Cloudinary file uploads, and NeonDB hosting.
 
 ✅ Tech Stack
 Category	Technologies
-Backend Framework	Spring Boot 3 (Java 17)
-WebSocket / Messaging	STOMP, SockJS, SimpMessagingTemplate
-Security	Spring Security 6, JWT Token Auth
-Database	PostgreSQL (NeonDB) + JPA/Hibernate
-Cloud Storage	Cloudinary
-Build Tool	Maven
-Deployment	Render.com
+* Backend Framework	Spring Boot 3 (Java 17)
+* WebSocket / Messaging	STOMP, SockJS, SimpMessagingTemplate
+* Security	Spring Security 6, JWT Token Auth
+* Database	PostgreSQL (NeonDB) + JPA/Hibernate
+* Cloud Storage	Cloudinary
+* Build Tool	Maven
+* Deployment	Render.com
 
 ⚡️ Features
 🔐 Authentication
@@ -138,37 +117,6 @@ Deployment	Render.com
 2.Excludes logged-in user
 
 3.Public search endpoint
-📁 Project Structure
-
-  src/main/java/com/example/chatapp
- ├── config
- │    ├── SecurityConfig.java
- │    ├── WebSocketConfig.java
- │
- ├── controller
- │    ├── AuthController.java
- │    ├── UserController.java
- │    ├── ChatController.java
- │
- ├── entity
- │    ├── User.java
- │    ├── Message.java
- │    ├── ChatRoom.java
- │
- ├── repository
- │    ├── UserRepository.java
- │    ├── MessageRepository.java
- │    ├── ChatRoomRepository.java
- │
- ├── service
- │    ├── ChatRoomService.java
- │    ├── CloudinaryService.java
- │    ├── OnlineService.java
- │
- ├── security
- │    ├── JwtFilter.java
- │    ├── JwtUtil.java
- │    ├── UserDetailsServiceImpl.java
 
 🔌 Running Locally
 1️⃣ Update application.properties
@@ -184,7 +132,7 @@ Deployment	Render.com
    mvn spring-boot:run
 Backend will run at:
    http://localhost:8080
-📡 Important API Endpoints
+## 📡 Important API Endpoints
 
  1.Auth:
  
@@ -203,6 +151,7 @@ Backend will run at:
 
 3.User Search
  | GET | /api/users/search?query=xx&exclude=email
+ 
 4.WebSocket Endpoints
    | Destination              | Purpose              |
 | ------------------------ | -------------------- |
