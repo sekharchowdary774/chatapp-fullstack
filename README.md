@@ -16,7 +16,9 @@ Category	Technologies
 🔐 Authentication UI
 
 1.Login / Signup
+
 2.JWT stored in localStorage
+
 3.Forgot Password (local reset flow)
 
 💬 Messaging UI
@@ -50,14 +52,16 @@ Category	Technologies
 
 
 ## 🔌 Run Locally
+
 1️⃣ Install Packages :  npm install
 
 2️⃣ Start App : npm run dev
 
 3️⃣ Configure API Base URLs
-    *  In api.js:
+
+ In api.js:
           baseURL: "https://chat-backened-2.onrender.com/api/auth"
-    *  In chatApi.js:
+ In chatApi.js:
          baseURL: "https://chat-backened-2.onrender.com/api"
 
 🌍 Deployment
