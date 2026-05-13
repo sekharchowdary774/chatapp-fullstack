@@ -24,12 +24,19 @@ Category	Technologies
 1.Real-time updates
 
 2.Live typing indicator
+
 3.Delivered / Seen ticks
+
 4.Reactions (emoji picker)
+
 5.Edit message
+
 6.Delete for me / everyone
+
 7.Reply and forward message
+
 8.File & image upload preview
+
 9.Lightbox image viewer
 
 🔍 User Search
@@ -48,9 +55,9 @@ Category	Technologies
 2️⃣ Start App : npm run dev
 
 3️⃣ Configure API Base URLs
-    * In api.js:
+    *  In api.js:
           baseURL: "https://chat-backened-2.onrender.com/api/auth"
-    * In chatApi.js:
+    *  In chatApi.js:
          baseURL: "https://chat-backened-2.onrender.com/api"
 
 🌍 Deployment
@@ -126,15 +133,21 @@ Spring Boot backend powering a full real-time private messaging system using Web
 1️⃣ Update application.properties
 
    spring.datasource.url=jdbc:postgresql://localhost:5432/chatdb
+   
    spring.datasource.username=postgres
+   
    spring.datasource.password=yourpassword
 
    cloudinary.cloud_name=xxxx
+   
    cloudinary.api_key=xxxx
+   
    cloudinary.api_secret=xxxx
    
 2️⃣ Run Backend
+
    mvn spring-boot:run
+   
 Backend will run at:
    http://localhost:8080
    
