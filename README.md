@@ -11,7 +11,8 @@ Category	Technologies
 * Routing	React Router
 * UI Features	Message bubbles, typing indicators, sidebar chats
 * Deployment	Vercel
-⚡️ Features
+
+## ⚡️ Features
 🔐 Authentication UI
 
 1.Login / Signup
@@ -44,9 +45,9 @@ Category	Technologies
 1️⃣ Install Packages :  npm install
 2️⃣ Start App : npm run dev
 3️⃣ Configure API Base URLs
-     In api.js:
+    # In api.js:
           baseURL: "https://chat-backened-2.onrender.com/api/auth"
-    In chatApi.js:
+   ##  In chatApi.js:
          baseURL: "https://chat-backened-2.onrender.com/api"
 
 🌍 Deployment
@@ -62,7 +63,7 @@ Automatic builds on push to main.
 Spring Boot backend powering a full real-time private messaging system using WebSockets (STOMP), JWT authentication, PostgreSQL, Cloudinary file uploads, and NeonDB hosting.
 
 ✅ Tech Stack
-Category	Technologies
+# Category	Technologies
 * Backend Framework	Spring Boot 3 (Java 17)
 * WebSocket / Messaging	STOMP, SockJS, SimpMessagingTemplate
 * Security	Spring Security 6, JWT Token Auth
@@ -71,7 +72,7 @@ Category	Technologies
 * Build Tool	Maven
 * Deployment	Render.com
 
-⚡️ Features
+## ⚡️ Features
 🔐 Authentication
 
 1.User Signup
@@ -118,25 +119,27 @@ Category	Technologies
 
 3.Public search endpoint
 
-🔌 Running Locally
+## 🔌 Running Locally
 1️⃣ Update application.properties
 
    spring.datasource.url=jdbc:postgresql://localhost:5432/chatdb
    spring.datasource.username=postgres
    spring.datasource.password=yourpassword
 
-  cloudinary.cloud_name=xxxx
-  cloudinary.api_key=xxxx
-  cloudinary.api_secret=xxxx
+   cloudinary.cloud_name=xxxx
+   cloudinary.api_key=xxxx
+   cloudinary.api_secret=xxxx
+   
 2️⃣ Run Backend
    mvn spring-boot:run
 Backend will run at:
    http://localhost:8080
+   
 ## 📡 Important API Endpoints
 
  1.Auth:
  
-    | Method | Endpoint           | Description        |
+ | Method | Endpoint           | Description        |
 | ------ | ------------------ | ------------------ |
 | POST   | `/api/auth/signup` | Register new user  |
 | POST   | `/api/auth/login`  | Login, returns JWT |
