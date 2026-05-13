@@ -61,7 +61,8 @@ Category	Technologies
 
  In api.js:
           baseURL: "https://chat-backened-2.onrender.com/api/auth"
- In chatApi.js:
+          
+  In chatApi.js:
          baseURL: "https://chat-backened-2.onrender.com/api"
 
 🌍 Deployment
